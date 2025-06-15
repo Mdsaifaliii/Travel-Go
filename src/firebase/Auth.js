@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 
-import { auth, db } from "./firebase";
+import { auth, db } from "../Firebase";
 
 import { setDoc, doc, getDoc } from "firebase/firestore";
 
