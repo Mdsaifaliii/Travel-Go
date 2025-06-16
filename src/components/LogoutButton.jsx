@@ -1,5 +1,5 @@
 import { signOut } from "firebase/auth";
-import { auth } from "../firebase/firebase";
+import { auth } from "../Firebase";
 import { useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 

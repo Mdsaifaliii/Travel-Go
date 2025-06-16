@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { signUp } from '../firebase/Auth';
 import { useNavigate } from 'react-router-dom';
 import GoogleLoginButton from '../components/GoogleLoginButton';
-import { auth } from '../firebase/firebase';
+import { auth } from '../Firebase';
 import LogoutButton from '../components/LogoutButton';
 
 const SignUp = () => {

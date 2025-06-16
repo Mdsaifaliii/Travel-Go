@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { db } from '../firebase/firebase'; 
+import { db } from './firebase/firebase'; 
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
