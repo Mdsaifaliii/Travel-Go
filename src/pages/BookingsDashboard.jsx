@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { collection, onSnapshot } from 'firebase/firestore';
-import { db, auth } from '../Firebase';
+import { db, auth } from '../firebase';
 import { FaMapMarkerAlt, FaUsers, FaStickyNote, FaEnvelope, FaCalendarAlt } from 'react-icons/fa';
 
 const BookingsDashboard = () => {

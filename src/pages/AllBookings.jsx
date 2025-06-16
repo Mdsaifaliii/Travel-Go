@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { db, auth } from "../Firebase";
+import { db, auth } from "../firebase";
 import { collection, query, where, getDocs } from "firebase/firestore";
 
 const AllBookings = () => {
