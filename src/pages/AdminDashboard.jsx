@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { collection, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../Firebase';
 import { CSVLink } from 'react-csv';
 
 import { useAuth } from '../context/AuthContext';

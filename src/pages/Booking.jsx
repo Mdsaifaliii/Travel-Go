@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { db } from "../firebase";
+import { db } from "../Firebase";
 import { collection, addDoc } from "firebase/firestore";
 import BookingConfirmationModal from "./BookingConfirmationModal";
 
